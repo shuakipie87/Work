@@ -1,0 +1,5 @@
+[25-Oct-2014 01:36:02 America/Denver] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home1/thelanh5/public_html/teachertraining/application/models/admin.php on line 77
+[25-Oct-2014 01:37:56 America/Denver] PHP Fatal error:  Cannot redeclare class admin in /home1/thelanh5/public_html/teachertraining/application/models/admin.php on line 118
+[25-Oct-2014 01:40:53 America/Denver] PHP Fatal error:  Cannot redeclare class Admin in /home1/thelanh5/public_html/teachertraining/application/models/admin.php on line 118
+[25-Oct-2014 01:41:59 America/Denver] PHP Fatal error:  Cannot redeclare class Admin in /home1/thelanh5/public_html/teachertraining/application/models/admin.php on line 75
+[25-Oct-2014 01:42:03 America/Denver] PHP Fatal error:  Cannot redeclare class Admin in /home1/thelanh5/public_html/teachertraining/application/models/admin.php on line 75

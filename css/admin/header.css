@@ -1,0 +1,167 @@
+.header-container{
+	
+	background:url(../images/headerbg.png);
+}
+/* Header mini Start*/
+.header-mini{
+	height:40px;
+	background:#a1d9f7;
+	width:100%;
+	position:fixed;
+	z-index:999;
+	top:0;
+	left:0;
+}
+.header-body-container,
+.header-main-container,
+.header-mini-menu{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	display:table;
+}
+.header-logo{
+	margin-top:10px;
+	float:left;
+	margin-left:20px;
+}
+.header-logo h1{
+	top:0;
+	position:absolute;
+	left:60px;
+	font-size:24px;
+	line-height:0.2em;
+	
+}
+.header-menu{
+	
+	float:left;
+	
+
+}
+.header-menu ul{
+	position:relative;
+	list-style:none;
+	float:left;
+}
+.header-menu ul li{
+	position:relative;
+	float:left;
+	margin-left:50px;
+	
+}
+.header-menu ul li:first-child{
+	margin-left:0;
+}
+.header-menu ul li a{
+	text-transform:uppercase;
+	text-decoration:none;
+	font-family: 'Lato', sans-serif;
+	font-size:14px;
+	line-height:1em;
+	color:#0f0e38;
+}
+.header-menu ul li:hover a{
+	color:#fff;
+}
+/* Header mini ENDS*/
+/* Header body STARTS*/
+
+.header-login-form,
+.header-body-logo{
+	margin-top:33px;
+	margin-left:20px;
+	float:left;
+}
+.header-body-logo{
+	width:250px;
+}
+.header-login-form{
+	float:right;
+}
+
+span#password a{
+	font-style:italic;
+	font-size:10px;
+	text-decoration:none;
+}
+#box{
+	position:relative;
+}
+button,
+input[type=submit]{
+	color:#fff;
+	font-family: 'Lato', sans-serif;
+	font-size:13px;
+	background:#399cd8;
+	border:0px;
+	height:30px;
+	-webkit-box-shadow: 1px 2px 5px 0px rgba(76, 57, 50, 0.57);
+	-moz-box-shadow:    1px 2px 5px 0px rgba(76, 57, 50, 0.57);
+	box-shadow:         1px 2px 5px 0px rgba(76, 57, 50, 0.57);
+	-webkit-border-radius: 2px 2px 2px 2px;
+	cursor:pointer;
+}
+button{
+width:100px;
+}
+input[type=password],
+input[type=text]{
+	border:2px solid #eaeaea;
+}
+
+/* Header body ENDS*/
+
+/* Header main Starts*/
+.header-main{
+	margin-top:18px;
+}
+.main-menu{
+	
+	height:45px;
+	margin-top:0;
+}
+.main-menu ul{
+	
+	list-style:none;
+	
+	
+	margin:0;
+	padding:0;
+	
+}
+.main-menu ul li{
+	position:relative;
+	padding:18px 12px 10px 12px;
+	border:1px solid  #ded9d9;
+	
+}
+.main-menu ul li a{
+	font-size:16px;
+	line-height:1em;
+	text-transform:uppercase;
+	font-weight:100px;
+	font-family: 'Lato', sans-serif;
+	color:#fff;
+}
+.main-menu ul li:hover{
+	background:#edf8fe;
+	cursor:pointer;
+}
+.main-menu ul li:hover a{
+color:#000;
+}
+.header-main-container{
+	background:#399cd8;
+	height:47px;
+}
+.menu-float{
+	position:fixed;
+	width:300px;
+	height:2000px;
+	top:40px;
+	left:0;
+	background:#399cd8;
+}
+/* Header main ENDS*/
+

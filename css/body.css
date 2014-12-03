@@ -1,0 +1,126 @@
+.main-contain{
+	width:985px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0;
+}
+.illustration{
+	background:url(../images/illu.png);
+	height:437px;
+	width:100%;
+	margin-bottom:20px;
+	box-shadow: 7px 10px 13px 0px rgba(119, 119, 119, 0.35);
+	-moz-box-shadow: 7px 10px 13px 0px rgba(119, 119, 119, 0.35);
+	-webkit-box-shadow: 7px 10px 13px 0px rgba(119, 119, 119, 0.35);
+}
+.contain{
+	width:100%;
+	display:table;
+}
+.contain-block{
+	
+	display:table;
+	width:100%;
+}
+.block-left{
+	width:678px;
+	float:left;
+	
+}
+.block-right{
+	width:282px;
+	float:right;
+	
+}
+/*BLOCK RIGHT CONTAIN START*/
+.block-right-contain{
+	margin-bottom:30px;
+	width:280px;
+	display:table;
+	box-shadow: 7px 10px 13px 0px rgba(119, 119, 119, 0.35);
+	-moz-box-shadow: 7px 10px 13px 0px rgba(119, 119, 119, 0.35);
+	-webkit-box-shadow: 7px 10px 13px 0px rgba(119, 119, 119, 0.35);
+}
+#block-right-title{
+	height:65px;
+	width:100%;
+	background:#399bd8;
+	padding-top:5px;
+	color:#fff;
+}
+#block-right-title h2{
+	margin-left:20px;
+}
+#block-right-desc{
+	width:100%;
+	background:#fff;
+	height:315px;
+	
+}
+#box-right{
+	margin:0 10px;
+	border-bottom:1px solid #eaeaea;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#box-right span{
+	font-family: 'Lato', sans-serif;
+	font-size:13px;
+	color:#707070;
+}
+#box-right a{
+	color:#0099ff;
+}
+/*BLOCK RIGHT CONTAIN END*/
+
+/* BLOCK CONTAIN START */
+.block-contain{
+	margin-bottom:30px;
+	width:670px;
+	display:table;
+	box-shadow: 7px 10px 13px 0px rgba(119, 119, 119, 0.35);
+	-moz-box-shadow: 7px 10px 13px 0px rgba(119, 119, 119, 0.35);
+	-webkit-box-shadow: 7px 10px 13px 0px rgba(119, 119, 119, 0.35);
+}
+#block-title{
+	height:65px;
+	width:100%;
+	background:#399bd8;
+	
+	padding-top:5px;
+	color:#fff;
+}
+#block-title h2{
+	margin-left:20px;
+}
+#block-logo{
+	height:178px;
+	width:250px;
+	float:left;
+
+}
+#block-logo img{
+	width:100%;
+	height:100%;
+}
+#block-desc{
+	height:178px;
+	width:420px;
+	float:left;
+	background:#fff;
+}
+#block-desc ul{
+	list-style:none;
+	
+}
+
+#block-desc ul li{
+	margin-top:10px;
+}
+#block-desc ul li a{
+	font-family: 'Lato', sans-serif;
+	font-size:13px;
+	color:#707070;
+	
+}
+/* BLOCK CONTAIN END */
